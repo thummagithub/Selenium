@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression testing for failed]">
+  <test thread-count="5" name="Build1.3_results(failed)">
+    <classes>
+      <class name="testNG.CrossBrowserTesting_FB_Login">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="f"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- testNG.CrossBrowserTesting_FB_Login -->
+      <class name="testNG.Annotation2">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="b"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- testNG.Annotation2 -->
+    </classes>
+  </test> <!-- Build1.3_results(failed) -->
+</suite> <!-- Failed suite [Regression testing for failed] -->

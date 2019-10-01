@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regression testing for failed">
+  <test thread-count="5" name="Build1.3_results">
+    <classes>
+      <class name="testNG.Firstclass"/>
+      <class name="testNG.Prioritysample"/>
+      <class name="testNG.Jri_login"/>
+      <class name="testNG.toyota_brochure"/>
+      <class name="testNG.Annotation2"/>
+      <class name="testNG.Annotations1"/>
+      <class name="testNG.CrossBrowserTesting_FB_Login"/>
+    </classes>
+  </test> <!-- Build1.2_results -->
+</suite> <!-- Regression testing -->

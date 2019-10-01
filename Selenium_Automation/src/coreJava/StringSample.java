@@ -21,15 +21,14 @@ public class StringSample {
 		System.out.println(abc);
 		System.out.println(abc.trim());
 
-		String expectedValue = "Ramya";
+		String expectedValue ="Ramya";
 		String actualVlue = "ramya";
 
 		if (expectedValue.equalsIgnoreCase(actualVlue)) {
-			System.out.println("Both the values are matching");
+			System.out.println("Both are matching");
 
 		} else {
-			System.out.println("Both the values are NOT matching");
-		}
+			System.out.println("Both are not matching");
 
 		String b = "189";
 		int d = Integer.parseInt(b);
@@ -42,4 +41,5 @@ public class StringSample {
 
 	}
 
+	}
 }
